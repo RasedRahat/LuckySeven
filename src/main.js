@@ -38,9 +38,9 @@ function startGame(gameMoney) {
             rollsAtMaxMoney = rolls;
         }
     }
-    document.getElementById('result1').innerText = startingBet;
+    document.getElementById('result1').innerText = '$' + startingBet;
     document.getElementById('result2').innerText = rolls;
-    document.getElementById('result3').innerText = maxMoney;
+    document.getElementById('result3').innerText = '$' + maxMoney;
     document.getElementById('result4').innerText = rollsAtMaxMoney;
     document.getElementById('results-div').classList.remove('invisible');
 }
